@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
-const VagasTagUl = styled.ul`
+export const VagasTagUl = styled.ul`
   display: grid;
-  grid-template-columns: 1fr 1fr cfr;
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 16px;
   margin-top: 32px;
@@ -11,4 +11,8 @@ const VagasTagUl = styled.ul`
     grid-template-columns: 1fr;
   }
 `
-export default VagasTagUl
+export const DivContainer = styled.div`
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+`

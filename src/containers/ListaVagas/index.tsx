@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import FormVagas from '../../components/FormVagas'
-import VagasTagUl from './style'
+import { VagasTagUl, DivContainer } from './style'
 
 import Vaga from '../../components/Vaga'
 
@@ -96,7 +96,7 @@ const ListaVagas = () => {
   )
 
   return (
-    <div>
+    <DivContainer>
       <FormVagas aoPesquisar={(termo: string) => setFiltro(termo)} />
       <VagasTagUl>
         {vagasFiltradas.map((vag) => (
@@ -112,7 +112,7 @@ const ListaVagas = () => {
           />
         ))}
       </VagasTagUl>
-    </div>
+    </DivContainer>
   )
 }
 
