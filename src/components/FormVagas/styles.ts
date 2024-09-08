@@ -24,7 +24,3 @@ export const InputCampo = styled.input`
   padding: 0 16px;
   outline-color: var(--cor-principal);
 `
-
-// .campo {
-//
-// }
